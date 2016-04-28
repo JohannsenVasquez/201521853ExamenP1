@@ -1,0 +1,47 @@
+/* SELECTOR DE HERMANO GENERAL*/
+
+*{
+    background-color: #efebdd;
+}
+h1{
+    text-align: center
+}
+
+header~h6{
+    text-align: center;
+    color: crimson;
+    background-color: #19e680;
+    }
+otro~span{
+    color: red;
+}
+
+h5~p{
+    color: #eb9f10;
+}
+
+/* SELECTOR HERMANO ADYACENTE*/
+
+h1+h2{
+    color: green;
+    white-space: inherit;
+    height: 20px;
+    }
+p+lorem{
+    color: red;
+    right:10px;
+}
+/* SELECTOR DE HIJO*/
+
+h1>p{
+    color: coral;
+}
+h6>p{
+    text-align: right;
+    margin: 20px;
+  background-color: #d09ad0
+}
+h4>p{
+    margin: 25px;
+    color: red;
+}
