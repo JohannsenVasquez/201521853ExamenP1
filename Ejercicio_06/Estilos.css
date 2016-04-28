@@ -7,3 +7,8 @@ a:link{
     color: red;
     text-decoration: none;
 }
+tr {
+   border-collapse: separate;
+   border-spacing: 5px;
+  margin: 10px;
+}
